@@ -32,17 +32,60 @@ My project is a magic mirror that provides the date, time, weather, news, and mo
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+```{
+			module: "weather",
+			position: "top_right",
+			header: "Weather Forecast",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: 41.869102,
+				lon: -87.789902
+			}
+		},
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "New York Times",
+						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		},
+                   {
+ module: "compliments",
+    position: "top_center",  // or top_bar, bottom_bar, etc.
+    config: {
+        compliments: {
+            morning: [
+                "Good morning!",
+                ":)"
+            ],
+            afternoon: [
+                "Hello!",
+                "Hope you're having a great day!",
+":)"
+            ],
+            evening: [
+                "Good evening!",
+                ":)",
+"go to bed"
+            ]
+        }
+        // You can also add updateInterval, fadeSpeed, etc.
+    }
 }
+	]
+};
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
+//I edited this portion of the config.js file to change up what modules I used and their positions
 ```
 
 # Bill of Materials
