@@ -13,7 +13,7 @@ The project I chose to do is the magic mirror, which is essentailly a rapsberry 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_6157 (1).jpeg)
   
 # Second Milestone
 
