@@ -1,7 +1,7 @@
 # Magic Mirror
 The project I chose to do is the magic mirror, which is essentailly a rapsberry pi with node.js that shows a screen that has the time, weather, and other usefull things. I chose to do this project so I can use the product as an alternative for my phone. 
 
-
+```
 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
