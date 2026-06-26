@@ -1,25 +1,17 @@
 # Magic Mirror
 The project I chose to do is the magic mirror, which is essentailly a rapsberry pi with node.js that shows a screen that has the time, weather, and other usefull things. I chose to do this project so I can use the product as an alternative for my phone. 
 
-```HTML
-
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Aidan S. | Oak Park and River Forest High School | Mechanical Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](IMG_6157.jpeg)
   
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=XK0VLb3TVcc&list=PLe-u_DjFx7etvdoxgh04tIDzwMjn92btk&index=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XK0VLb3TVcc?si=tWeA7AaUbEk5-gO5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my second milestone, I added a feature to the magic mirror that allowed the mirror to turn off after a 2 minute timer ended. My biggest challenge in the process of working on this project came when I was trying to figure out how to use motion sensors to turn on and off my mirror. Unfortunately, they did not end up working. Hopefully I can come back to this project and figure them out. The other challenges came when trying to upload the Javascript on day one and I was easily able to fix them because they were simply outdated lines and I just replaced them with newer versions that supported my pi's version. At BSE I learned a lot about how to use a raspberry pi to create a project, which was really fun. I hope now to use raspberry pi's to create other projects in the future.
 
@@ -95,9 +87,8 @@ Here's where you'll put your code. The syntax below places it into a block of co
 | Raspberry pi 4 kit | computer runs the program to show the mirror | $147.79 | <a href="https://www.amazon.com/RasTech-Raspberry-Starter-Heatsink-Screwdriver/dp/B0C8LV6VNZ?th=1"> Link </a> |
 | Wireless keyboard and mouse | Used to control the raspberry pi and run the program | $19.99 | <a href="https://www.amazon.com/Wireless-Keyboard-MARVO-Ergonomic-Compatible/dp/B09P33RWFJ/ref=sr_1_8?crid=25NZHWHJCCIRD&dib=eyJ2IjoiMSJ9.CM5cH1es5BlyFktB1Vxilllr0GbyvUQicyIGHEoVMN48koGBB4W65cZI_1H2q92yKd5_fpnd930q_3UerO24pIF6pdZip6_SQ6Il27zBX9MA1x2A9-n7CNykZa4EPSitgeYhmTzpXSBa3o2k3_S_E97l79BQEp1qunXNSVk1_PicqHudGgKgkrllQS7vokvqnkGDoPLnbvqzgPIXekwHd2ubXzOCZYISrfTiobaE11uCsMxLJmBGacsZcCD9jPno4j5jr3YAD6LH27YuPKInv4YJ5HRbEPGFg1Po9YNknbs.LuRKWFF1zq8wm3HIkvonUc5Jeupk3PiCaeMXJvTHcBY&dib_tag=se&keywords=wireless%2Bmouse%2Band%2Bkeyboard&qid=1779915988&sprefix=wireless%2Bmouse%2Band%2Bke%2Caps%2C606&sr=8-8&th=1"> Link </a> |
 | 7 inch lcd display | used for display of the magic mirror | $45.99 | <a href="https://www.amazon.com/Hosyond-Display-1024%C3%97600-Capacitive-Raspberry/dp/B09XKC53NH?th=1"> Link </a> |
-| 3 motion detectors | used to turn off display after no detected movment for a certain amount of time | $8.45 | <a href="https://a.co/d/0cDGkhb4"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
 # Other Resources/Examples
-- [Example 1](https://github.com/rkorell/MMM-PresenceScreenControl/blob/main/README.md)
-- [Example 2](https://learn.sparkfun.com/tutorials/how-to-make-a-magic-mirror-with-raspberry-pi/all)
+- [timer github](https://github.com/rkorell/MMM-PresenceScreenControl/blob/main/README.md)
+- [Magic Mirror sparkfun](https://learn.sparkfun.com/tutorials/how-to-make-a-magic-mirror-with-raspberry-pi/all)
