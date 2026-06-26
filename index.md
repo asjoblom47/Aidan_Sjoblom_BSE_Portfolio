@@ -22,7 +22,7 @@ For my second milestone, I added a feature to the magic mirror that allowed the 
 My project is a magic mirror that provides the date, time, weather, news, and more. I uploaded and ran a program on a raspberry pi computer to display the mirror on a monitor. Later on I will integrate motion detectors to automatically turn on the display when there is motion, and turn off the display after no detected motion for a short period of time to conserve energy. I also plan to add a frame to make it look more pretty.
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
 
 ```{
 			module: "weather",
